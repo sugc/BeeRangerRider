@@ -170,6 +170,7 @@
     if (status == TaskStatusNone || status == TaskStatusRequest) {
         //啥也不展示
         _contentView.top = self.height;
+        _contentView.alpha = 0;
         return;
     }
     
@@ -331,6 +332,8 @@
        
         
     }
+    
+    _contentView.alpha = 1;
     
 }
 

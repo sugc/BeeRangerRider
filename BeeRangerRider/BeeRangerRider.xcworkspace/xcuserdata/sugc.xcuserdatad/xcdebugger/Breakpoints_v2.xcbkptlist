@@ -10,7 +10,7 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "BeeRangerRider/ViewController.m"
-            timestampString = "576709508.176186"
+            timestampString = "576709947.385903"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "155"
@@ -26,11 +26,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "BeeRangerRider/StatusView.m"
-            timestampString = "576709508.176265"
+            timestampString = "576709947.386016"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "344"
-            endingLineNumber = "344"
+            startingLineNumber = "346"
+            endingLineNumber = "346"
             landmarkName = "-clickBtn1"
             landmarkType = "7">
          </BreakpointContent>
@@ -42,11 +42,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "BeeRangerRider/StatusView.m"
-            timestampString = "576709508.1763149"
+            timestampString = "576709947.386515"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "349"
-            endingLineNumber = "349"
+            startingLineNumber = "355"
+            endingLineNumber = "355"
             landmarkName = "-clickBtn2"
             landmarkType = "7">
          </BreakpointContent>
