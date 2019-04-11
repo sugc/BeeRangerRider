@@ -1,0 +1,692 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		89CE66A3225FDEBF007F1845 /* ximen.gpx in Resources */ = {isa = PBXBuildFile; fileRef = 89CE66A2225FDEBF007F1845 /* ximen.gpx */; };
+		89E24BE0225CEB640055732D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 89E24BDF225CEB640055732D /* AppDelegate.m */; };
+		89E24BE3225CEB640055732D /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 89E24BE2225CEB640055732D /* ViewController.m */; };
+		89E24BE6225CEB640055732D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 89E24BE4225CEB640055732D /* Main.storyboard */; };
+		89E24BE8225CEB670055732D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 89E24BE7225CEB670055732D /* Assets.xcassets */; };
+		89E24BEB225CEB670055732D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 89E24BE9225CEB670055732D /* LaunchScreen.storyboard */; };
+		89E24BEE225CEB670055732D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 89E24BED225CEB670055732D /* main.m */; };
+		89E24BF8225CEB680055732D /* BeeRangerRiderTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 89E24BF7225CEB680055732D /* BeeRangerRiderTests.m */; };
+		89E24C03225CEB680055732D /* BeeRangerRiderUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 89E24C02225CEB680055732D /* BeeRangerRiderUITests.m */; };
+		89E24C15225CEBF50055732D /* LocationManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 89E24C11225CEBF50055732D /* LocationManager.m */; };
+		89E24C16225CEBF50055732D /* NewWorkManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 89E24C12225CEBF50055732D /* NewWorkManager.m */; };
+		89E24C1A225CEEBB0055732D /* StatusView.m in Sources */ = {isa = PBXBuildFile; fileRef = 89E24C17225CEEBA0055732D /* StatusView.m */; };
+		89E24C1D225CEECA0055732D /* UIView+FrameAccessor.m in Sources */ = {isa = PBXBuildFile; fileRef = 89E24C1C225CEECA0055732D /* UIView+FrameAccessor.m */; };
+		89E24C20225CEFEC0055732D /* MTAFNetWorkingRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 89E24C1F225CEFEC0055732D /* MTAFNetWorkingRequest.m */; };
+		89E24C22225CF17E0055732D /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 89E24C21225CF17E0055732D /* MapKit.framework */; };
+		EC26AE624908DA9840F94C7E /* libPods-BeeRangerRider.a in Frameworks */ = {isa = PBXBuildFile; fileRef = AD40F3822E77D595C220363F /* libPods-BeeRangerRider.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		89E24BF4225CEB680055732D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 89E24BD3225CEB640055732D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 89E24BDA225CEB640055732D;
+			remoteInfo = BeeRangerRider;
+		};
+		89E24BFF225CEB680055732D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 89E24BD3225CEB640055732D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 89E24BDA225CEB640055732D;
+			remoteInfo = BeeRangerRider;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		48A2A091F80B963173AB890E /* Pods-BeeRangerRider.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BeeRangerRider.debug.xcconfig"; path = "Target Support Files/Pods-BeeRangerRider/Pods-BeeRangerRider.debug.xcconfig"; sourceTree = "<group>"; };
+		89CE66A2225FDEBF007F1845 /* ximen.gpx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = ximen.gpx; sourceTree = "<group>"; };
+		89E24BDB225CEB640055732D /* BeeRangerRider.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BeeRangerRider.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		89E24BDE225CEB640055732D /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		89E24BDF225CEB640055732D /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		89E24BE1225CEB640055732D /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		89E24BE2225CEB640055732D /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		89E24BE5225CEB640055732D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		89E24BE7225CEB670055732D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		89E24BEA225CEB670055732D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		89E24BEC225CEB670055732D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		89E24BED225CEB670055732D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		89E24BF3225CEB680055732D /* BeeRangerRiderTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BeeRangerRiderTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		89E24BF7225CEB680055732D /* BeeRangerRiderTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BeeRangerRiderTests.m; sourceTree = "<group>"; };
+		89E24BF9225CEB680055732D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		89E24BFE225CEB680055732D /* BeeRangerRiderUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BeeRangerRiderUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		89E24C02225CEB680055732D /* BeeRangerRiderUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BeeRangerRiderUITests.m; sourceTree = "<group>"; };
+		89E24C04225CEB680055732D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		89E24C11225CEBF50055732D /* LocationManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LocationManager.m; sourceTree = "<group>"; };
+		89E24C12225CEBF50055732D /* NewWorkManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NewWorkManager.m; sourceTree = "<group>"; };
+		89E24C13225CEBF50055732D /* NewWorkManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NewWorkManager.h; sourceTree = "<group>"; };
+		89E24C14225CEBF50055732D /* LocationManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LocationManager.h; sourceTree = "<group>"; };
+		89E24C17225CEEBA0055732D /* StatusView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StatusView.m; sourceTree = "<group>"; };
+		89E24C18225CEEBB0055732D /* UtilsDef.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UtilsDef.h; sourceTree = "<group>"; };
+		89E24C19225CEEBB0055732D /* StatusView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StatusView.h; sourceTree = "<group>"; };
+		89E24C1B225CEECA0055732D /* UIView+FrameAccessor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+FrameAccessor.h"; sourceTree = "<group>"; };
+		89E24C1C225CEECA0055732D /* UIView+FrameAccessor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+FrameAccessor.m"; sourceTree = "<group>"; };
+		89E24C1E225CEFEC0055732D /* MTAFNetWorkingRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MTAFNetWorkingRequest.h; sourceTree = "<group>"; };
+		89E24C1F225CEFEC0055732D /* MTAFNetWorkingRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MTAFNetWorkingRequest.m; sourceTree = "<group>"; };
+		89E24C21225CF17E0055732D /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		AD40F3822E77D595C220363F /* libPods-BeeRangerRider.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-BeeRangerRider.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E53EC4C85778D311CA6E7B21 /* Pods-BeeRangerRider.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BeeRangerRider.release.xcconfig"; path = "Target Support Files/Pods-BeeRangerRider/Pods-BeeRangerRider.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		89E24BD8225CEB640055732D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				89E24C22225CF17E0055732D /* MapKit.framework in Frameworks */,
+				EC26AE624908DA9840F94C7E /* libPods-BeeRangerRider.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		89E24BF0225CEB680055732D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		89E24BFB225CEB680055732D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		89E24BD2225CEB640055732D = {
+			isa = PBXGroup;
+			children = (
+				89CE66A2225FDEBF007F1845 /* ximen.gpx */,
+				89E24BDD225CEB640055732D /* BeeRangerRider */,
+				89E24BF6225CEB680055732D /* BeeRangerRiderTests */,
+				89E24C01225CEB680055732D /* BeeRangerRiderUITests */,
+				89E24BDC225CEB640055732D /* Products */,
+				8FA8515304EA3DB74D88B395 /* Pods */,
+				C7714889B7A36E11FA75F311 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		89E24BDC225CEB640055732D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				89E24BDB225CEB640055732D /* BeeRangerRider.app */,
+				89E24BF3225CEB680055732D /* BeeRangerRiderTests.xctest */,
+				89E24BFE225CEB680055732D /* BeeRangerRiderUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		89E24BDD225CEB640055732D /* BeeRangerRider */ = {
+			isa = PBXGroup;
+			children = (
+				89E24C10225CEBF50055732D /* NewWorkManager */,
+				89E24BDE225CEB640055732D /* AppDelegate.h */,
+				89E24BDF225CEB640055732D /* AppDelegate.m */,
+				89E24BE1225CEB640055732D /* ViewController.h */,
+				89E24BE2225CEB640055732D /* ViewController.m */,
+				89E24C19225CEEBB0055732D /* StatusView.h */,
+				89E24C17225CEEBA0055732D /* StatusView.m */,
+				89E24C1E225CEFEC0055732D /* MTAFNetWorkingRequest.h */,
+				89E24C1F225CEFEC0055732D /* MTAFNetWorkingRequest.m */,
+				89E24C1B225CEECA0055732D /* UIView+FrameAccessor.h */,
+				89E24C1C225CEECA0055732D /* UIView+FrameAccessor.m */,
+				89E24C18225CEEBB0055732D /* UtilsDef.h */,
+				89E24BE4225CEB640055732D /* Main.storyboard */,
+				89E24BE7225CEB670055732D /* Assets.xcassets */,
+				89E24BE9225CEB670055732D /* LaunchScreen.storyboard */,
+				89E24BEC225CEB670055732D /* Info.plist */,
+				89E24BED225CEB670055732D /* main.m */,
+			);
+			path = BeeRangerRider;
+			sourceTree = "<group>";
+		};
+		89E24BF6225CEB680055732D /* BeeRangerRiderTests */ = {
+			isa = PBXGroup;
+			children = (
+				89E24BF7225CEB680055732D /* BeeRangerRiderTests.m */,
+				89E24BF9225CEB680055732D /* Info.plist */,
+			);
+			path = BeeRangerRiderTests;
+			sourceTree = "<group>";
+		};
+		89E24C01225CEB680055732D /* BeeRangerRiderUITests */ = {
+			isa = PBXGroup;
+			children = (
+				89E24C02225CEB680055732D /* BeeRangerRiderUITests.m */,
+				89E24C04225CEB680055732D /* Info.plist */,
+			);
+			path = BeeRangerRiderUITests;
+			sourceTree = "<group>";
+		};
+		89E24C10225CEBF50055732D /* NewWorkManager */ = {
+			isa = PBXGroup;
+			children = (
+				89E24C11225CEBF50055732D /* LocationManager.m */,
+				89E24C14225CEBF50055732D /* LocationManager.h */,
+				89E24C13225CEBF50055732D /* NewWorkManager.h */,
+				89E24C12225CEBF50055732D /* NewWorkManager.m */,
+			);
+			path = NewWorkManager;
+			sourceTree = "<group>";
+		};
+		8FA8515304EA3DB74D88B395 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				48A2A091F80B963173AB890E /* Pods-BeeRangerRider.debug.xcconfig */,
+				E53EC4C85778D311CA6E7B21 /* Pods-BeeRangerRider.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		C7714889B7A36E11FA75F311 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				89E24C21225CF17E0055732D /* MapKit.framework */,
+				AD40F3822E77D595C220363F /* libPods-BeeRangerRider.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		89E24BDA225CEB640055732D /* BeeRangerRider */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 89E24C07225CEB680055732D /* Build configuration list for PBXNativeTarget "BeeRangerRider" */;
+			buildPhases = (
+				AA84445EC7719C35231B6E0D /* [CP] Check Pods Manifest.lock */,
+				89E24BD7225CEB640055732D /* Sources */,
+				89E24BD8225CEB640055732D /* Frameworks */,
+				89E24BD9225CEB640055732D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BeeRangerRider;
+			productName = BeeRangerRider;
+			productReference = 89E24BDB225CEB640055732D /* BeeRangerRider.app */;
+			productType = "com.apple.product-type.application";
+		};
+		89E24BF2225CEB680055732D /* BeeRangerRiderTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 89E24C0A225CEB680055732D /* Build configuration list for PBXNativeTarget "BeeRangerRiderTests" */;
+			buildPhases = (
+				89E24BEF225CEB680055732D /* Sources */,
+				89E24BF0225CEB680055732D /* Frameworks */,
+				89E24BF1225CEB680055732D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				89E24BF5225CEB680055732D /* PBXTargetDependency */,
+			);
+			name = BeeRangerRiderTests;
+			productName = BeeRangerRiderTests;
+			productReference = 89E24BF3225CEB680055732D /* BeeRangerRiderTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		89E24BFD225CEB680055732D /* BeeRangerRiderUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 89E24C0D225CEB680055732D /* Build configuration list for PBXNativeTarget "BeeRangerRiderUITests" */;
+			buildPhases = (
+				89E24BFA225CEB680055732D /* Sources */,
+				89E24BFB225CEB680055732D /* Frameworks */,
+				89E24BFC225CEB680055732D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				89E24C00225CEB680055732D /* PBXTargetDependency */,
+			);
+			name = BeeRangerRiderUITests;
+			productName = BeeRangerRiderUITests;
+			productReference = 89E24BFE225CEB680055732D /* BeeRangerRiderUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		89E24BD3225CEB640055732D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = sugc;
+				TargetAttributes = {
+					89E24BDA225CEB640055732D = {
+						CreatedOnToolsVersion = 10.1;
+						SystemCapabilities = {
+							com.apple.BackgroundModes = {
+								enabled = 1;
+							};
+							com.apple.Maps.iOS = {
+								enabled = 1;
+							};
+						};
+					};
+					89E24BF2225CEB680055732D = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = 89E24BDA225CEB640055732D;
+					};
+					89E24BFD225CEB680055732D = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = 89E24BDA225CEB640055732D;
+					};
+				};
+			};
+			buildConfigurationList = 89E24BD6225CEB640055732D /* Build configuration list for PBXProject "BeeRangerRider" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 89E24BD2225CEB640055732D;
+			productRefGroup = 89E24BDC225CEB640055732D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				89E24BDA225CEB640055732D /* BeeRangerRider */,
+				89E24BF2225CEB680055732D /* BeeRangerRiderTests */,
+				89E24BFD225CEB680055732D /* BeeRangerRiderUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		89E24BD9225CEB640055732D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				89E24BEB225CEB670055732D /* LaunchScreen.storyboard in Resources */,
+				89E24BE8225CEB670055732D /* Assets.xcassets in Resources */,
+				89E24BE6225CEB640055732D /* Main.storyboard in Resources */,
+				89CE66A3225FDEBF007F1845 /* ximen.gpx in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		89E24BF1225CEB680055732D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		89E24BFC225CEB680055732D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		AA84445EC7719C35231B6E0D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-BeeRangerRider-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		89E24BD7225CEB640055732D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				89E24C1D225CEECA0055732D /* UIView+FrameAccessor.m in Sources */,
+				89E24C15225CEBF50055732D /* LocationManager.m in Sources */,
+				89E24BE3225CEB640055732D /* ViewController.m in Sources */,
+				89E24C20225CEFEC0055732D /* MTAFNetWorkingRequest.m in Sources */,
+				89E24C1A225CEEBB0055732D /* StatusView.m in Sources */,
+				89E24BEE225CEB670055732D /* main.m in Sources */,
+				89E24C16225CEBF50055732D /* NewWorkManager.m in Sources */,
+				89E24BE0225CEB640055732D /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		89E24BEF225CEB680055732D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				89E24BF8225CEB680055732D /* BeeRangerRiderTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		89E24BFA225CEB680055732D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				89E24C03225CEB680055732D /* BeeRangerRiderUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		89E24BF5225CEB680055732D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 89E24BDA225CEB640055732D /* BeeRangerRider */;
+			targetProxy = 89E24BF4225CEB680055732D /* PBXContainerItemProxy */;
+		};
+		89E24C00225CEB680055732D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 89E24BDA225CEB640055732D /* BeeRangerRider */;
+			targetProxy = 89E24BFF225CEB680055732D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		89E24BE4225CEB640055732D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				89E24BE5225CEB640055732D /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		89E24BE9225CEB670055732D /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				89E24BEA225CEB670055732D /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		89E24C05225CEB680055732D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		89E24C06225CEB680055732D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		89E24C08225CEB680055732D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 48A2A091F80B963173AB890E /* Pods-BeeRangerRider.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4D8QBLQTY5;
+				INFOPLIST_FILE = BeeRangerRider/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.sugc.magic.BeeRangerRider;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		89E24C09225CEB680055732D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E53EC4C85778D311CA6E7B21 /* Pods-BeeRangerRider.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4D8QBLQTY5;
+				INFOPLIST_FILE = BeeRangerRider/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.sugc.magic.BeeRangerRider;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		89E24C0B225CEB680055732D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4D8QBLQTY5;
+				INFOPLIST_FILE = BeeRangerRiderTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.sugc.magic.BeeRangerRiderTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BeeRangerRider.app/BeeRangerRider";
+			};
+			name = Debug;
+		};
+		89E24C0C225CEB680055732D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4D8QBLQTY5;
+				INFOPLIST_FILE = BeeRangerRiderTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.sugc.magic.BeeRangerRiderTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BeeRangerRider.app/BeeRangerRider";
+			};
+			name = Release;
+		};
+		89E24C0E225CEB680055732D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4D8QBLQTY5;
+				INFOPLIST_FILE = BeeRangerRiderUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.sugc.magic.BeeRangerRiderUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = BeeRangerRider;
+			};
+			name = Debug;
+		};
+		89E24C0F225CEB680055732D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4D8QBLQTY5;
+				INFOPLIST_FILE = BeeRangerRiderUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.sugc.magic.BeeRangerRiderUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = BeeRangerRider;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		89E24BD6225CEB640055732D /* Build configuration list for PBXProject "BeeRangerRider" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				89E24C05225CEB680055732D /* Debug */,
+				89E24C06225CEB680055732D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		89E24C07225CEB680055732D /* Build configuration list for PBXNativeTarget "BeeRangerRider" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				89E24C08225CEB680055732D /* Debug */,
+				89E24C09225CEB680055732D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		89E24C0A225CEB680055732D /* Build configuration list for PBXNativeTarget "BeeRangerRiderTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				89E24C0B225CEB680055732D /* Debug */,
+				89E24C0C225CEB680055732D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		89E24C0D225CEB680055732D /* Build configuration list for PBXNativeTarget "BeeRangerRiderUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				89E24C0E225CEB680055732D /* Debug */,
+				89E24C0F225CEB680055732D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 89E24BD3225CEB640055732D /* Project object */;
+}
