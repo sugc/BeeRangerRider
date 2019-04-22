@@ -101,6 +101,7 @@
     
     _statusView = [[StatusView alloc] initWithFrame:_mapContentView.frame];
     [self.view addSubview:_statusView];
+    [avatarBtn addTarget:self action:@selector(goNextForce) forControlEvents:UIControlEventTouchUpInside];
 }
 
 - (void)addMapView {
@@ -158,6 +159,10 @@
 
 //各种视图展示， UI相关
 
+//强制进入下一步
+- (void)goNextForce {
+    [self.statusView changeToStatus:self.statusView.status + 1 msg:nil animate:YES];
+}
 
 
 @end

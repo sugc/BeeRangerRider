@@ -37,7 +37,6 @@
 
 @property (nonatomic, strong) UIView *contentView;
 
-@property (nonatomic, assign) TaskStatus status;
 
 @end
 
@@ -130,7 +129,7 @@
 
 - (void)changeToStatus:(TaskStatus)staus msg:(NSDictionary *)msg animate:(BOOL)animate {
     
-    if (staus <= self.status) {
+    if (staus <= self.status || staus > TaskStatusNone) {
         return;
     }
     self.status = staus;
@@ -166,6 +165,7 @@
     _button2.hidden = YES;
     _imageView.hidden = YES;
     _leftImageView.hidden = YES;
+    _titleLabel.width = _contentView.width - 40;
     
     if (status == TaskStatusNone || status == TaskStatusRequest) {
         //啥也不展示
