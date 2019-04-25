@@ -77,6 +77,8 @@
     _contentView = [[UIView alloc] init];
     _contentView.backgroundColor = [UIColor whiteColor];
     _contentView.frame = CGRectMake(10, self.height, self.width - 20, 40);
+    _contentView.layer.cornerRadius = 5;
+    _contentView.layer.masksToBounds = YES;
     [self addSubview:_contentView];
     
     _shrinkBtn = [[UIButton alloc] initWithFrame:CGRectMake(_contentView.width - 20 - 10, 10, 20, 10)];
@@ -184,9 +186,17 @@
         _imageView.hidden = NO;
         
         NSString *str = @"您附近有一个骑士需要救援！\n前去救援？";
-        _titleLabel.attributedText = [[NSAttributedString alloc] initWithString:str attributes:@{
-                                                                                                         NSFontAttributeName :[UIFont systemFontOfSize:16]
-                                                                                                         }];
+        NSMutableAttributedString *attrStr = [[NSMutableAttributedString alloc] initWithString:str attributes:@{
+                                                                                                                NSFontAttributeName :[UIFont systemFontOfSize:18]
+                                                                                                                }];
+        NSRange range = [str rangeOfString:@"前去救援？"];
+        [attrStr setAttributes:@{
+                                 NSFontAttributeName :[UIFont systemFontOfSize:16],
+                                 NSForegroundColorAttributeName : [UIColor colorWithRed:252/255.0 green:120/255.0 blue:0/255.0 alpha:1.0]
+                                 } range:range];
+        
+        
+        _titleLabel.attributedText = attrStr;
         [_titleLabel sizeToFit];
         _titleLabel.top = _imageView.bottom + 15;
         _titleLabel.centerX = _contentView.width / 2.0;
@@ -228,10 +238,23 @@
         _leftImageView.left = 15;
         _leftImageView.hidden = NO;
         
-        NSString *str = @"5分钟\n1.7km";
-        _titleLabel.attributedText = [[NSAttributedString alloc] initWithString:str attributes:@{
-                                                                                                 NSFontAttributeName :[UIFont systemFontOfSize:16]
-                                                                                                 }];
+        NSString *str = @"5 分钟\n1.7km";
+        NSMutableAttributedString *attrStr = [[NSMutableAttributedString alloc] initWithString:str attributes:@{
+                                                                                                                NSFontAttributeName :[UIFont systemFontOfSize:18]
+                                                                                                                }];
+        NSRange range = [str rangeOfString:@"5"];
+        [attrStr setAttributes:@{
+                                 NSFontAttributeName :[UIFont systemFontOfSize:18],
+                                 NSForegroundColorAttributeName : [UIColor colorWithRed:69/255.0 green:170/255.0 blue:167/255.0 alpha:1.0]
+                                 } range:range];
+        
+        NSRange range1 = [str rangeOfString:@"1.7km"];
+        [attrStr setAttributes:@{
+                                 NSFontAttributeName :[UIFont systemFontOfSize:16],
+                                 NSForegroundColorAttributeName : [UIColor lightGrayColor]
+                                 } range:range1];
+        
+        _titleLabel.attributedText = attrStr;
         [_titleLabel sizeToFit];
         _titleLabel.top = 20;
         _titleLabel.left = _leftImageView.right + 10;
