@@ -15,7 +15,8 @@ typedef NS_ENUM(NSInteger, TaskStatus) {
     TaskStatusBegin = 2,
     TaskStatusArrived = 3,
     TaskStatusComplete = 4,
-    TaskStatusNone = 5
+    TaskStatusCompleteAndShare = 5,
+    TaskStatusNone = 6,
 };
 
 
@@ -30,6 +31,8 @@ typedef NS_ENUM(NSInteger, TaskStatus) {
 @property (nonatomic, assign) BOOL isInTask;   //是否正在帮助别人
 
 @property (nonatomic, weak) id<NetWorkDelegate> delegate;
+
+@property (nonatomic, assign) TaskStatus currentStatus;
     
 + (instancetype)shareInstance;
 

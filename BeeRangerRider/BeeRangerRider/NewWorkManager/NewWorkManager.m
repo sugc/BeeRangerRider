@@ -69,7 +69,8 @@ static NSString *const host = @"http://192.168.199.171:5000";
     CLLocation *location = [LocationManager shareInstance].location;
     NSDictionary *param = @{@"userName":_userName,
                             @"lng":@(location.coordinate.longitude),
-                            @"lat":@(location.coordinate.latitude)
+                            @"lat":@(location.coordinate.latitude),
+                            @"status":@(_currentStatus)
                             };
     
     NSString *url = [host stringByAppendingPathComponent:@"getTask"];
@@ -102,9 +103,6 @@ static NSString *const host = @"http://192.168.199.171:5000";
 - (void)updateHelpMsgWithStatus:(TaskStatus)status {
     
     //设置参数
-    if (_isAskingHelp || _isInTask) {
-        return;
-    }
     
     _isAskingHelp = YES;
     CLLocation *location = [LocationManager shareInstance].location;

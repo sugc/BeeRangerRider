@@ -135,7 +135,7 @@
         return;
     }
     self.status = staus;
-    
+    [NewWorkManager shareInstance].currentStatus = staus;
     if (!animate) {
         [self refreshRiderWithStatus:staus msg:msg];
         _contentView.bottom = _contentView.bottom = self.height - 5 - 10;
@@ -185,7 +185,7 @@
         _imageView.top = 40;
         _imageView.hidden = NO;
         
-        NSString *str = @"您附近有一个骑士需要救援！\n前去救援？";
+        NSString *str = @"您附近有一位騎士需要救援！\n前去救援？";
         NSMutableAttributedString *attrStr = [[NSMutableAttributedString alloc] initWithString:str attributes:@{
                                                                                                                 NSFontAttributeName :[UIFont systemFontOfSize:18]
                                                                                                                 }];
@@ -238,7 +238,7 @@
         _leftImageView.left = 15;
         _leftImageView.hidden = NO;
         
-        NSString *str = @"5 分钟\n1.7km";
+        NSString *str = @"5 分鐘\n1.7km";
         NSMutableAttributedString *attrStr = [[NSMutableAttributedString alloc] initWithString:str attributes:@{
                                                                                                                 NSFontAttributeName :[UIFont systemFontOfSize:18]
                                                                                                                 }];
@@ -288,7 +288,7 @@
         _imageView.hidden = NO;
 
         
-        NSString *str = @"您已到达救援地点";
+        NSString *str = @"您已到達救援地點";
         _titleLabel.attributedText = [[NSAttributedString alloc] initWithString:str attributes:@{
                                                                                                  NSFontAttributeName :[UIFont systemFontOfSize:16]
                                                                                                  }];
@@ -325,7 +325,7 @@
         _imageView.hidden = NO;
         
         
-        NSString *str = @"是否完成交换？";
+        NSString *str = @"是否完成交換？";
         _titleLabel.attributedText = [[NSAttributedString alloc] initWithString:str attributes:@{
                                                                                                  NSFontAttributeName :[UIFont systemFontOfSize:16]
                                                                                                  }];
@@ -351,9 +351,38 @@
         _button2.centerX = _contentView.width * 0.75;
         
         _contentView.height = _button2.bottom + 20;
+    }
+    
+    if (status == TaskStatusCompleteAndShare) {
         
+        _leftImageView.image = [UIImage imageNamed:@"img_battery"];
+        _leftImageView.width = 35;
+        _leftImageView.height = 61;
+        _leftImageView.centerX = _contentView.width / 2.0;
+        _leftImageView.top = 40;
+        _leftImageView.hidden = NO;
+        _leftImageView.contentMode = UIViewContentModeScaleAspectFit;
+        
+        _imageView.image = [UIImage imageNamed:@"img_phone_call"];
+        _imageView.width = 47;
+        _imageView.height = 12;
+        _imageView.right = _contentView.width - 20;
+        _imageView.top = 15;
+        _imageView.hidden = NO;
        
         
+        _titleLabel.attributedText = [[NSAttributedString alloc] initWithString:@"恭喜您完成交換!" attributes:@{
+                                                                                                         NSFontAttributeName :[UIFont systemFontOfSize:18]
+                                                                                                         }];
+        [_titleLabel sizeToFit];
+        _titleLabel.top = _leftImageView.bottom + 15;
+        _titleLabel.centerX = _contentView.width / 2.0;
+        [_button2 setBackgroundImage:[UIImage imageNamed:@"button_in_help"] forState:UIControlStateNormal];
+        [_button2 setTitle:@"分享" forState:UIControlStateNormal];
+        _button2.top = _titleLabel.bottom + 20;
+        _button2.centerX = _contentView.width / 2.0;
+        _contentView.height = _button2.bottom + 20;
+        _button2.hidden = NO;
     }
     
     _contentView.alpha = 1;
