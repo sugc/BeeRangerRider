@@ -405,7 +405,11 @@
         //显示分享页面
         return;
     }
-    [[NewWorkManager shareInstance] updateHelpMsgWithStatus:self.status + 1];
+    if (_forceGoNext) {
+        [[NewWorkManager shareInstance] goNextForce];
+    }else {
+        [[NewWorkManager shareInstance] updateHelpMsgWithStatus:self.status + 1];
+    }
 }
 
 - (void)showShareView {

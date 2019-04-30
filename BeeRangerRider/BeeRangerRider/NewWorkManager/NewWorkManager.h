@@ -24,6 +24,8 @@ typedef NS_ENUM(NSInteger, TaskStatus) {
 
 - (void)updateStatus:(TaskStatus)status isIntask:(BOOL)isInTask msg:(NSDictionary *)msg;
 
+- (void)goNextForce;
+
 @end
 
 @interface NewWorkManager : NSObject
@@ -38,5 +40,6 @@ typedef NS_ENUM(NSInteger, TaskStatus) {
 
 - (void)updateHelpMsgWithStatus:(TaskStatus)status;
 
+- (void)goNextForce;
 
 @end
