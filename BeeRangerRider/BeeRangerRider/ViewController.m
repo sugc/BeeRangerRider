@@ -165,7 +165,10 @@
 
 //强制进入下一步
 - (void)goNextForce {
-    [self.statusView changeToStatus:self.statusView.status + 1 msg:nil animate:YES];
+    TaskStatus status = self.statusView.status + 1;
+    [self.statusView changeToStatus:status msg:nil animate:YES];
+    
+    [[NewWorkManager shareInstance] updateHelpMsgWithStatus:status];
 }
 
 - (void)setForceGoNext {
